@@ -13,14 +13,21 @@ h1 {
     width: max-content;
     border-radius: 10px;
     transform: rotate(21deg);
+    padding: 10px;
 }
 
 p {
     color: white;
 }
 
-li {
+ul {
     list-style-type: square;
+    background-color: rgba(238, 73, 238, 0.61);
+    width: max-content;
+    padding: 20px;
+    border-color: blueviolet;
+
+    border: 2px solid purple;
 }
 
 .texto {
@@ -58,6 +65,6 @@ p {
 
 @media (min-width: 80em){
     body {
-      background-color: blue;
+      background-color: rgb(196, 51, 196);
     }
 }
