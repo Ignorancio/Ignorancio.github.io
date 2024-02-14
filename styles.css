@@ -26,8 +26,9 @@ ul {
     width: max-content;
     padding: 20px;
     border-color: blueviolet;
-
+    list-style: none;
     border: 2px solid purple;
+    display: flex;
 }
 
 .texto {
@@ -35,8 +36,10 @@ ul {
     font-weight: bold;
 }
 
-li em {
+li{
     color: rebeccapurple;
+    border: 2px solid black;
+    padding: 10px;
   }
 
 p span {
@@ -63,8 +66,6 @@ p {
     color: aqua;
 }
 
-@media (min-width: 80em){
     body {
       background-color: rgb(196, 51, 196);
     }
-}
