@@ -1,0 +1,55 @@
+body {
+    background-color: #9696b9c0;
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    color: rgb(0, 0, 0);
+    font-size: 400%;
+    background-color: yellow;
+    border: #000000 2px solid;
+    box-sizing: border-box;
+    width: max-content;
+    border-radius: 30px;
+}
+
+p {
+    color: white;
+}
+
+li {
+    list-style-type: square;
+}
+
+.texto {
+    color: red;
+    font-weight: bold;
+}
+
+li em {
+    color: rebeccapurple;
+  }
+
+p span {
+    color: rgb(160, 57, 9);
+}
+
+h1 + p {
+    font-size: 200%;
+  }
+
+a:link {
+    color: pink;
+}
+
+a:visited {
+    color: green;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+p {
+    color: aqua;
+}
